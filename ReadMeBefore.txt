@@ -1,0 +1,1 @@
+Le programme principal est le fichier core.py
