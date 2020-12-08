@@ -28,7 +28,6 @@ def MotsFichier():
     for ligne in Fichier :
         Liste.append(ligne)
     Liste=sorted(Liste, key=Tri)    
-    print(Liste)
     Indice = randint(0,len(Liste)-1)
     Fichier.close()
     Mot = Liste[Indice].upper()
@@ -37,6 +36,7 @@ def MotsFichier():
 
 
 #Fonction qui cache les lettres d'un mot par des underscores sauf si elles sont identiques à la 1ere lettre du mot mis en entrée de la fonction" 
+
 
 
 def Underscore(Mot):
@@ -54,7 +54,6 @@ def Underscore(Mot):
 #Fonction qui permet à l'utilisateur de saisir une lettre
 
 def Saisie(LUtilise):
-    
     Lettre = input("Saisir une lettre :")
     Lettre = Lettre.upper()
     while Lettre in LUtilise: #On véfifie que la lettre saisie soit bien une nouvelle lettre 

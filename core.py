@@ -12,12 +12,8 @@ from PENDULE import Gagner
 from PENDULE import Modif
 
 
-
-print(MotsFichier()),
-
 cpt=8
 Rejouer="1"
-
 
 
 while Rejouer=="1":
@@ -31,4 +27,5 @@ while Rejouer=="1":
         
         MotUnderscore,cpt=Modif(Mot,MotUnderscore,cpt,LUtilise)
         print(MotUnderscore)
+    
     Rejouer=input("Voulez vous rejouer ? 1 oui 0 non")
