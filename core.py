@@ -2,7 +2,7 @@
 """
 Created on Tue Dec  1 08:50:19 2020
 
-@author: xavie
+@author: diego.marques
 """
 
 from PENDULE import MotsFichier
